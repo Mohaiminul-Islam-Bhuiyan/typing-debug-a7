@@ -190,3 +190,15 @@ button {
     flex-direction: column;
   }
 }
+
+/* 
+for large devices:
+[ reference: https://www.w3schools.com/howto/howto_css_media_query_breakpoints.asp ]
+ */
+@media only screen and (min-width: 992px){
+  #histories {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 2% 2%;
+  }
+}
